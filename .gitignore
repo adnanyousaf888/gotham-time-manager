@@ -1,0 +1,21 @@
+# Elixir / Phoenix
+_build/
+deps/
+.elixir_ls/
+erl_crash.dump
+*.ez
+cover/
+priv/static/assets/
+*.secret.exs
+
+# Vue / Node
+node_modules/
+dist/
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
