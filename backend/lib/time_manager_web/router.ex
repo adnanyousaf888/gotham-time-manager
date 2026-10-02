@@ -9,7 +9,8 @@ defmodule TimeManagerWeb.Router do
     pipe_through :api
 
      resources "/users", UserController, except: [:new, :edit]
-       
+     resources "/feedbacks", FeedbackController, only: [:index, :create]
+  
   end
 scope "/api/workingtime", TimeManagerWeb do
   pipe_through :api
