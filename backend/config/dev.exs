@@ -24,10 +24,8 @@ config :time_manager, TimeManagerWeb.Endpoint,
   code_reloader: true,
   debug_errors: true,
   secret_key_base: "KSykfz8Rlx/QgGLrnjucqgPGS1v/ApwIRzb2KxE5LG2p/2QlQZkuTHcWgPETkpyi",
-  watchers: [
-    esbuild: {Esbuild, :install_and_run, [:time_manager, ~w(--sourcemap=inline --watch)]},
-    tailwind: {Tailwind, :install_and_run, [:time_manager, ~w(--watch)]}
-  ]
+  watchers: []
+  
 
 # ## SSL Support
 #
